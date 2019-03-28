@@ -6,3 +6,7 @@ page {
   padding:48rpx;
   font-size: 1.025em;
 }
+.next-step{
+  padding: 16rpx;
+  border-top: 1px dotted #e5e5e5
+}
