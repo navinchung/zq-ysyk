@@ -1,9 +1,9 @@
 <view class="p-title">国家税务总局肇庆市税务局落实减税降费政策一次性告知书</view>
-<view class="p-body">
-    <scroll-view scroll-y style="height: {{scrollHeight}}">
+<scroll-view scroll-y style="height: {{scrollHeight}}px">
+    <view class="p-body">
         <rich-text nodes="{{htmlText}}"></rich-text>
-    </scroll-view>
-</view>
+    </view>
+</scroll-view>
 <view class="next-step">
     <navigator url="/pages/jdk/jdk">
         <van-button type="info" size="large">填写监督卡</van-button>

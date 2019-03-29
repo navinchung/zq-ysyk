@@ -72,7 +72,7 @@ Page({
     },
     onLoad(){
        let info = wx.getSystemInfoSync();
-       let scrollHeight = info.windowHeight - 80;
+       let scrollHeight = info.windowHeight - 100;
        this.setData({scrollHeight:scrollHeight})
     }
   });
