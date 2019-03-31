@@ -1,6 +1,7 @@
 Page({
       data: {
         scrollHeight:500,
+        title:'国家税务总局肇庆市税务局落实减税降费政策一次性告知书',
         htmlText: `<p>
         <span><span> </span></span><span><span> </span></span><span><span> </span></span><span><span> </span></span> 
       </p>
@@ -72,7 +73,7 @@ Page({
     },
     onLoad(){
        let info = wx.getSystemInfoSync();
-       let scrollHeight = info.windowHeight - 100;
+       let scrollHeight = info.windowHeight - 90;
        this.setData({scrollHeight:scrollHeight})
     }
   });

@@ -1,4 +1,50 @@
-/* pages/w-input/index.wxss */
 page {
-  background-color: #fafafa
+  background-color: #fafafa;
+}
+.p-body {
+  padding: 16px 32rpx 16px 32rpx;
+  font-size: 1.025em;
+}
+.next-step {
+  padding: 16px;
+  border-top: 1px dotted #e5e5e5;
+}
+.p-title {
+  font-size: 1.2em;
+  font-weight: 500;
+  background-color: #f2f2f2;
+  color: #000000;
+  box-shadow: 0px 6px 12px rgba(10, 23, 77, 0.08);
+  padding: 16px 32rpx 16px 32rpx;
+  text-align: left;
+}
+.btn-icon {
+  top: 5px;
+}
+.btn-submit {
+  background-color: #1989fa;
+  color: #ffffff;
+}
+.btn-submit::after {
+  border: none;
+}
+.q-choices van-radio-group{
+  display:flex;
+  justify-content: flex-start;
+  align-content: center
+}
+.q-choices van-radio-group>van-radio{
+  flex:1;
+}
+.questions{
+  margin-bottom: 24px;
+}
+.q-content{
+  margin-bottom: 8px;
+}
+.text-input{
+  height: 2em !important;
+}
+.p-tips{
+  font-size: 12px;
 }

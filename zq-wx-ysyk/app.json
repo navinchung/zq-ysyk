@@ -13,6 +13,11 @@
     "van-field": "vant-weapp/field/index",
     "van-button": "vant-weapp/button/index",
     "van-cell-group": "vant-weapp/cell-group/index",
-    "van-cell": "vant-weapp/cell/index"
+    "van-cell": "vant-weapp/cell/index",
+    "van-icon": "vant-weapp/icon/index",
+    "van-panel": "vant-weapp/panel/index",
+    "van-radio": "vant-weapp/radio/index",
+    "van-radio-group": "vant-weapp/radio-group/index"
+    
   }
 }
